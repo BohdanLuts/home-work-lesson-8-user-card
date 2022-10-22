@@ -109,6 +109,7 @@ h4,
 
 .viewCv,
 .offer {
+  display: block;
   width: 200px;
   border: 1px solid #039be6;
   border-radius: 10px;
