@@ -1,5 +1,7 @@
 :root {
   --card-width: 300px;
+  --link-main-color: #039be6;
+  --card-color: #8dc34a;
 }
 
 * {
@@ -111,7 +113,7 @@ h4,
 .offer {
   display: block;
   width: 200px;
-  border: 1px solid #039be6;
+  border: 1px solid var(--link-main-color);
   border-radius: 10px;
   padding: 10px 0;
   margin: 7px auto;
@@ -119,20 +121,20 @@ h4,
   transition: 500ms;
 }
 .viewCv {
-  color: #039be6;
+  color: var(--link-main-color);
 }
 .viewCv:hover {
   color: #fafafa;
-  background-color: #039be6;
+  background-color: var(--link-main-color);
 }
 
 .offer {
-  background-color: #039be6;
+  background-color: var(--link-main-color);
   color: #fafafa;
 }
 .offer:hover {
-  background-color: #8dc34a;
-  border: 1px solid #8dc34a;
+  background-color: var(--card-color);
+  border: 1px solid var(--card-color);
 }
 
 p,
@@ -154,6 +156,6 @@ footer {
 
 .networkStatus i {
   font-size: 7px;
-  color: #8dc34a;
+  color: var(--card-color);
   padding: 5px;
 }
